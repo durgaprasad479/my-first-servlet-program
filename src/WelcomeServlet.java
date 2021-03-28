@@ -16,7 +16,7 @@ public class WelcomeServlet extends HttpServlet {
         writer.println("<h1>Hello ::"+paramValue+"</h1>");
         if(ageNumber<30)
         {
-            writer.println("<h1> Hi Young Boy</h1>");
+            writer.println("<h2> Hi Young Boy</h2>");
         }else
         {
             writer.println("<h1> Hi Old Men</h1>");
